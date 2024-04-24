@@ -1,0 +1,86 @@
+/* Style the title */
+h2 {
+  color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(7, 123, 168);
+    padding: 20px;
+}
+
+/* Style the sidebar */
+.sidebar {
+  background-color:rgb(146, 212, 238);
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+/* Style the select input fields */
+.selectize-input {
+  border-radius: 0;
+  border: 1px solid #eacfcf;
+}
+
+/* Style the main plot area */
+.main-panel {
+  background-color:rgb(146, 212, 238);
+  padding: 20px;
+}
+.well{
+  min-height: 1000px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color:rgb(146, 212, 238);
+  border: 1px solid #787575;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.row{
+  color: white;
+  font-size: large;
+}
+.custom-plotly-margin {
+  margin-top: 5%; /* Adjust the value as needed */
+}
+.main-panel {
+  background-color: white !important;
+  padding: 20px;
+}
+/* #totalCountry, #totalProvince {
+  padding: 10px;
+  margin-top: 10px;
+  background-color:rgb(81, 204, 252);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+} */
+.info-box-container { 
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+}
+.info-box { 
+  padding: 15px; 
+  flex: 1; 
+  min-width: 150px; 
+  max-width: 48%; 
+  margin-bottom: 15px; 
+  color: #fff; 
+  background-color: rgb(146, 212, 238); 
+  text-align: center; 
+}
+.info-box .box-content { 
+  justify-content: space-between; 
+  align-items: center; 
+}
+.info-box .box-title { 
+  font-size: 16px; 
+}
+.info-box .box-value { 
+  font-size: 20px; 
+  font-weight: bold; 
+}
+.centered-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
